@@ -1,5 +1,7 @@
 # spaceLock
 
+[Blog post with pics](https://www.space150.com/opening-doors-with-space150s-apple-watch-app-2/)
+
 The goal of this project is to use the new Apple Watch to interact and open doors in the physical space. This project includes the iOS app and WatchKit extension, and a RFduino application and solenoid circuit. Using the combination of these, you can turn any door into a “smart” door, and a seamless physical to digital connection.
 
 This project is a product of spaceLab, space150’s research and development division.
