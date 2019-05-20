@@ -1,3 +1,18 @@
+# FencePost
+The goal of this fork is to take the cool [project](https://github.com/space150/spaceLock) by [Space150](https://www.space150.com/opening-doors-with-space150s-apple-watch-app-2/) and exend the [Fence](https://repo.mieweb.com/projects/FEN/repos/fence) to support controlling access to a physical thing (eg: a door, a light, etc.)
+
+The idea is that the action could be triggered from a phone, watch, etc, but only if that device is within the proximty of the sensor. 
+
+## Hardware
+
+The RFDuino does two main things: it acts as a beacon to allow our apps to know that a door is within range (we’ve covered beacons before), and it also allows us to send a signal to our doors when they should open. To use the RFDuino, you need a few other commodity parts that cost less than few dollars.
+
+![Hardware](https://www.space150.com/wp-content/uploads/2015/10/RFduino.jpg)
+
+To physically open the door we need an electronic door strike. On a normal door, the strike is the metal part of the door that secures the deadbolt or locking mechanism. An electric strike is a version of this that can be opened with an electrical signal, allowing a door to be opened normally (with a key), or electronically by releasing the strike. For this project, we chose a model from Leviton that cost about 0. If you are working with a door that already has an electronic strike, you won’t need a new one, but you’ll need to figure out how to integrate with the existing unit.
+
+![App](https://www.space150.com/wp-content/uploads/2015/10/app-runthrough.gif)
+
 # spaceLock
 
 [Blog post with pics](https://www.space150.com/opening-doors-with-space150s-apple-watch-app-2/)
